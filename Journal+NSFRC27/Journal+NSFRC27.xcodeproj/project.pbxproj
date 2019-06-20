@@ -12,6 +12,8 @@
 		FB72A4BE22BBD7500097E7A8 /* Journal_NSFRC27.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB72A4BC22BBD7500097E7A8 /* Journal_NSFRC27.xcdatamodeld */; };
 		FB72A4C022BBD7510097E7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB72A4BF22BBD7510097E7A8 /* Assets.xcassets */; };
 		FB72A4C322BBD7510097E7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB72A4C122BBD7510097E7A8 /* LaunchScreen.storyboard */; };
+		FB72A4D122BBF3B40097E7A8 /* Entry+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72A4D022BBF3B40097E7A8 /* Entry+Convenience.swift */; };
+		FB72A4D322BBF4590097E7A8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72A4D222BBF4590097E7A8 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB72A4BF22BBD7510097E7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB72A4C222BBD7510097E7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB72A4C422BBD7510097E7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB72A4D022BBF3B40097E7A8 /* Entry+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+Convenience.swift"; sourceTree = "<group>"; };
+		FB72A4D222BBF4590097E7A8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		FB72A4CB22BBD7C40097E7A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FB72A4D022BBF3B40097E7A8 /* Entry+Convenience.swift */,
+				FB72A4D222BBF4590097E7A8 /* CoreDataStack.swift */,
 				FB72A4BC22BBD7500097E7A8 /* Journal_NSFRC27.xcdatamodeld */,
 			);
 			path = Model;
@@ -152,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB72A4BE22BBD7500097E7A8 /* Journal_NSFRC27.xcdatamodeld in Sources */,
+				FB72A4D122BBF3B40097E7A8 /* Entry+Convenience.swift in Sources */,
 				FB72A4B622BBD7500097E7A8 /* AppDelegate.swift in Sources */,
+				FB72A4D322BBF4590097E7A8 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
